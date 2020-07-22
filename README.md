@@ -16,6 +16,6 @@ Each obejcts (weed or corn) was extracted from a PASCAL VOC format file using co
 
 Here is an example of a Broadleaves weed extracted from the image 
 
-<img src=https://user-images.githubusercontent.com/60111412/88196627-16c6e080-cc4a-11ea-8095-7ca2e53f5e84.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/60111412/88196627-16c6e080-cc4a-11ea-8095-7ca2e53f5e84.png" width="400"/>
 
 
