@@ -23,3 +23,14 @@ size and direction of the gradients in the image which implies on ROI's (Regions
 
 The objects are extracted from the images using XML files. Overall there are 118 images and ~33000 objects of corn and weeds.
 The train-tesst ratio is 70%-30% respectively.
+
+First, we trained the SVM model with the scikit-learn default parameters.
+The model produced 90% for both Accuracy and F1-Score.
+
+For better results, we used the scikit-learn optimization tools GridSearchCV, which enable us to 
+look for the best model's Hyper-Parameters.
+
+After tuning the model, we improved the results which can be seen in the next Confusion Matrix:
+
+<img src="https://user-images.githubusercontent.com/60111412/88200844-5d6b0980-cc4f-11ea-9718-2ec4cfebfe6c.png" width="400"/>
+
