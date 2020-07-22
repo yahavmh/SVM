@@ -12,3 +12,10 @@ HSV based Color Segmentation is applied for improving accuracy.
 The objects are extracted from the images using XML files. Overall there are 118 images and ~33000 objects of corn and weeds.
 The train-tesst ratio is 70%-30% respectively.
 
+Each obejcts (weed or corn) was extracted from a PASCAL VOC format file using coordinates and label.
+
+Here is an example of a Broadleaves weed extracted from the image 
+
+![weed_examp](https://user-images.githubusercontent.com/60111412/88196627-16c6e080-cc4a-11ea-8095-7ca2e53f5e84.png)
+
+
